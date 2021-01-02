@@ -125,8 +125,8 @@ function reset(){
   gameOver.visible = false;
   restart.visible = false;
   
-  ObstaclesGroup.destroyEach();
-  CloudsGroup.destroyEach();
+  obstaclesGroup.destroyEach();
+  cloudsGroup.destroyEach();
   
   trex.addAnimation("trex");
   
